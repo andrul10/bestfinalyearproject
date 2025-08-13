@@ -50,12 +50,8 @@
       "source": "/blogs.html",
       "destination": "/blogs",
       "permanent": true
-    },
-    {
-      "source": "/blog-single.html",
-      "destination": "/blog-single",
-      "permanent": true
     }
+
   ],
 
   "headers": [
