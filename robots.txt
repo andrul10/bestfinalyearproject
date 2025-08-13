@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block sensitive directories
+Disallow: /admin/
+Disallow: /assets/
+
+# Block duplicate content
+Disallow: /*?*
+
+# Sitemap
+Sitemap: https://bestfinalyearproject.vercel.app/sitemap.xml
