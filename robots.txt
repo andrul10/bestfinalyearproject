@@ -8,5 +8,8 @@ Disallow: /assets/
 # Block duplicate content
 Disallow: /*?*
 
+# Block HTML extensions (redirect to clean URLs)
+Disallow: /*.html
+
 # Sitemap
 Sitemap: https://bestfinalyearproject.vercel.app/sitemap.xml

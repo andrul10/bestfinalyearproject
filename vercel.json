@@ -1,0 +1,60 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/services.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/blogs",
+      "destination": "/blogs.html"
+    },
+    {
+      "source": "/blog-single",
+      "destination": "/blog-single.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/blogs.html",
+      "destination": "/blogs",
+      "permanent": true
+    },
+    {
+      "source": "/blog-single.html",
+      "destination": "/blog-single",
+      "permanent": true
+    }
+  ]
+}
