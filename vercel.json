@@ -50,26 +50,13 @@
       "source": "/blogs.html",
       "destination": "/blogs",
       "permanent": true
-    }
-
-  ],
-
-  "headers": [
+    },
     {
-      "source": "/sitemap.xml",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/xml"
-        }
-      ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "source": "/blog-single.html",
+      "destination": "/blog-single",
+      "permanent": true
     }
   ]
+  
 }
 
